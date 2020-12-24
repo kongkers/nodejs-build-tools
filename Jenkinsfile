@@ -1,5 +1,4 @@
 node {
-  def node-build-tools
 
   stage('Clone Repository') {
     checkout scm
