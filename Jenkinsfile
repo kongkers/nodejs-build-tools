@@ -5,6 +5,6 @@ node {
   }
 
   stage('Build Images') {
-    sh "docker build -t node10-build-tools -f node10-builder.dockerfile"
+    sh "docker build -t node10-build-tools -f node10-builder.dockerfile ."
   }
 }
